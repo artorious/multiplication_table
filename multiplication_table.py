@@ -10,5 +10,5 @@ except ValueError:
 for row in range(1, size + 1):
     for column in range(1, size + 1):
         product = row * column # Compute product
-        print(product, end=' ')
+        print('{0:4}'.format(product), end=' ')
     print() # Move cursor to the next row
