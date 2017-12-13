@@ -5,5 +5,10 @@ try:
     size = int(input('Enter Multiplication Table size: '))
 except ValueError:
     print('Oops!.... Expected Integer')
+
+# Print a size x size multiplcation table
 for row in range(1, size + 1):
-    print('Row #', row)
+    for column in range(1, size + 1):
+        product = row * column # Compute product
+        print(product, end=' ')
+    print() # Move cursor to the next row

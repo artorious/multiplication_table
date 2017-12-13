@@ -1,5 +1,5 @@
 # Multiplication Table. 
-Prints out a multiplacation table
+[Prints out a multiplacation table](10x10_multiplication_table.png)
 
 Attribution
 ===========
